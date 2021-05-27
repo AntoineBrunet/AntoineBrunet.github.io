@@ -1,0 +1,15 @@
+@import "palette";
+
+.post,
+.home {
+	margin: 5px;
+}
+
+.post-list {
+	list-style: none;
+	padding-inline-start : 0;
+	li {
+		border: 1px solid $yellow;
+		padding: 5px;
+	}
+}

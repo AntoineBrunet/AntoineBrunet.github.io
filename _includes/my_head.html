@@ -1,0 +1,10 @@
+<head>
+	<title>
+		{% if page.title == "Home" %}
+		{{ site.title }} &middot; {{ site.tagline }}
+		{% else %}
+		{{ page.title }} &middot; {{ site.title }}
+		{% endif %}
+	</title>
+	<link rel="stylesheet" href="/assets/css/styles.css">
+</head>

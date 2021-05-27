@@ -1,0 +1,14 @@
+@import "palette";
+
+.header {
+	padding: 0;
+	background-color: $header-bg;
+	a {
+		color: $header-fg;
+		display: inline-block;
+		margin-left: 1em;
+	}
+	* {
+		vertical-align: middle;
+	}
+}

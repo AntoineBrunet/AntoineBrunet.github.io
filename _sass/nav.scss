@@ -1,0 +1,24 @@
+@import "palette";
+
+.sidebar {
+	background-color: $sidebar-bg;
+	color : $sidebar-fg;
+}
+
+.sidebar nav a {
+	color : $sidebar-fg;
+	text-decoration : None;
+	padding: 5px;
+	margin:0;
+	&:hover {
+		background-color: $nav-hover-bg;
+		color: $nav-hover-fg;
+	}
+
+	&.active {
+		background-color : $nav-active-bg;
+		color : $nav-active-fg;
+	}
+}
+
+
