@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Antoine Brunet
+title: COSPAR PRBEM
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Test jekyll website
+    Website of the COSPAR Panel for Radiation Belt Environment Modeling (PRBEM).
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://antoinebrunet.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://prbem.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  AntoineBrunet
+github_username:  PRBEM
 
 # Build settings
 theme: minima
@@ -33,8 +33,9 @@ plugins:
   - jekyll-feed
 
 show_excerpts: true
+show_posts: true
 
-footer_content: "Copyright 2021 AB"
+footer_content: ""
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
